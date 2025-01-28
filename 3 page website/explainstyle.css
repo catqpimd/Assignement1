@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New';
+    background-color:rgba(254,238,204,255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;           
+}
+
+.todo-container {
+    background-color: rgb(255, 248, 238);
+    border-radius: 8px;
+    padding: 10px;
+    width: 50%; 
+    text-align: center;
+    margin-left: 25%;
+}
+
+
+input {
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: 'Courier New';
+}
+
+button {
+    padding: 10px;
+    background-color:tomato;
+    color: rgb(255, 248, 238);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 25%;
+    width:50%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}

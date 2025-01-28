@@ -1,0 +1,156 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(254,238,204,255);
+}
+
+/* General Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   
+}
+
+.timer-section {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.timer-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: tomato;
+    border-radius: 15px;
+    border-style: solid tomato;
+    size: 20%;
+
+}
+
+.controls button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: rgba(255, 99, 71, 0.719);
+}
+
+/* Music Options  */
+.music-options {
+    position: absolute;
+    top: 20px; 
+    text-align: right;
+}
+
+.music-options .buttons button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display:list-item;
+    align-content: center;
+}
+
+.music-options .buttons button:hover {
+    background-color: rgba(255, 99, 71, 0.719);
+}
+
+.volume-control {
+    position: absolute;
+    right:10px;
+    top: 175px;
+    width: 100px;
+    height: 200px; 
+    transform: rotate(270deg); /* Rotate the slider */
+    margin-left: 70%;
+}
+
+/* Background Options Section */
+.background-options {
+    text-align: center;
+}
+
+.background-options .buttons button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5%;
+}
+
+.background-options .buttons button:hover {
+    background-color: rgba(255, 99, 71, 0.719);
+}
+
+/* Background Noise */
+.background-noise {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.background-noise button,
+.background-noise input {
+    margin: 5px;
+}
+
+.homepage-buttons {
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.homepage-buttons button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.homepage-buttons button:hover {
+    background-color: rgba(255, 99, 71, 0.719);
+}
+
+.background-noise button{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

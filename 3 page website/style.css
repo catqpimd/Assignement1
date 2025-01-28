@@ -1,0 +1,25 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(254, 238, 204, 255);
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  text-align: center;
+}
+
+.button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e06e5b; /* Slightly darker tomato on hover */
+}
